@@ -38,7 +38,7 @@ public class I18nUpdateMod {
         //记录开始时间
         long startTime = System.currentTimeMillis();
         try {
-            MainDownloader.downloadResource("https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/releases/download/%E6%B1%89%E5%8C%96%E8%B5%84%E6%BA%90%E5%8C%85-Snapshot-20180518064901/Minecraft-Mod-Language-Modpack.zip", "Minecraft-Mod-Language-Modpack.zip", mc.getResourcePackRepository().getDirResourcepacks().toString());
+            MainDownloader.downloadResource("https://gitee.com/jxsd1234a/Minecraft-Mod-Language-Package/releases/download/Snapshot-20200828114549/Minecraft-Mod-Language-Modpack.zip", "Minecraft-Mod-Language-Modpack.zip", mc.getResourcePackRepository().getDirResourcepacks().toString());
             logger.info("下载成功！");
         } catch (Exception e) {
             logger.error("下载失败！");
